@@ -121,7 +121,7 @@ So if you want to use any of them we recommend to create a custom bundle where y
 use yii\web\AssetBundle;
 class AdminLtePluginAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/almasaeed2010/adminlte/plugins';
+    public $sourcePath = '@vendor/antonkj/adminlte/plugins';
     public $js = [
         'datatables/dataTables.bootstrap.min.js',
         // more plugin Js here
